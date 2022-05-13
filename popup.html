@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/popup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="#" class="open_popup" id="btn">popup</a>
+      <!-- <a href="#" class="open_popup">popup</a> -->
+      <!-- <a href= "#" class="open_popup">popup</a> -->
+    </div>
+    <div class="popup_bg">
+      <form class="popup">
+        <div class="close_popup">&#9587</div>
+        <label>
+          <input type="text" name="name" class="popup_input" />
+          <div class="label_text">Name</div>
+        </label>
+        <label>
+          <input type="tel" name="tel" class="popup_input"/>
+          <div class="label_text">Telephone</div>
+        </label>
+        <label>
+          <input type="email" name="email" class="popup_input" />
+          <div class="label_text">Email</div>
+        </label>
+        <label>
+          <textarea
+            name="comment"
+            class="popup_input massage"
+            placeholder="your massage"
+          ></textarea>
+          <div class="label_text">Massage</div>
+        </label>
+        <button type="submit" class="submit">Sent</button>
+      </form>
+    </div>
+    <script src="/popup.js"></script>
+      </body>
+</html>
